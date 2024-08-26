@@ -1,0 +1,60 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Rubik Mono One", monospace;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 3px rgb(201, 7, 7);
+    padding: 20px;
+    font-size: 50px;
+    color: rgb(225, 255, 0)
+}
+
+.chamada {
+    background: rgb(59, 57, 57);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-vídeos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-vídeos img {
+    opacity: 0.5;
+    height: 300px;
+}
+
+.categoria-vídeos img:hover {
+    opacity: 1.0;
+    border: 1px solid red;
+}
+
+.categoria h2 {
+    color: rgb(225, 255, 0)
+}
